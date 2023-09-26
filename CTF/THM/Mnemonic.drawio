@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T14:12:02.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.2" etag="Zlu8SaRP4qUPb-mAUv_u" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T14:15:49.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6ImBdXziLKGHREHnZsAg" version="21.8.2" type="github">
   <diagram name="第 1 页" id="iMAl1XQLH6ZE3Hko7S_J">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mQ1j57M7Gzo4mgw4EYp2-1" target="mQ1j57M7Gzo4mgw4EYp2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mQ1j57M7Gzo4mgw4EYp2-1" target="mQ1j57M7Gzo4mgw4EYp2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mQ1j57M7Gzo4mgw4EYp2-1" target="mQ1j57M7Gzo4mgw4EYp2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-39" y="179" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-2" value="21" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="169" y="57" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-4" value="1337" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="171" y="296" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mQ1j57M7Gzo4mgw4EYp2-5" target="mQ1j57M7Gzo4mgw4EYp2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-5" value="80" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="178" y="179" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mQ1j57M7Gzo4mgw4EYp2-8" target="mQ1j57M7Gzo4mgw4EYp2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-8" value="进行目录扫描发现存在 backups 所以扫描备份文件" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="378" y="179" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mQ1j57M7Gzo4mgw4EYp2-10" target="mQ1j57M7Gzo4mgw4EYp2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-10" value="获取到 ftp 用户" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="578" y="179" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mQ1j57M7Gzo4mgw4EYp2-12" target="mQ1j57M7Gzo4mgw4EYp2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-12" value="暴力破解获取到 ftp 用户密码, 并从中收集到 james 用户的私钥" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="578" y="57" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mQ1j57M7Gzo4mgw4EYp2-14" target="mQ1j57M7Gzo4mgw4EYp2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-14" value="进行 SSH 远程连接, 发现其存在一个用户 condor 的密码加密" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="778" y="57" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mQ1j57M7Gzo4mgw4EYp2-16" target="mQ1j57M7Gzo4mgw4EYp2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-16" value="解密得到用户 condor 的密码进行登陆" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="978" y="57" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQ1j57M7Gzo4mgw4EYp2-18" value="用户具有 SUDO 特权执行 python 脚本, 该脚本存在命令注入漏洞" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1178" y="57" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
