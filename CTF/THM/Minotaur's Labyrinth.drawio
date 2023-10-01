@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T01:43:59.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.8.2" etag="U2TjuYMYS7C_cbG0gCO6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-01T01:49:30.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="t7aBsjYtoP2ohgxYXusp" version="21.8.2" type="github">
   <diagram name="第 1 页" id="aWG13ItoGP6U5I6bJaI3">
-    <mxGraphModel>
+    <mxGraphModel dx="1900" dy="1230" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-1" target="sESf9vWZNCSHoRV-wfdT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-1" target="sESf9vWZNCSHoRV-wfdT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-1" target="sESf9vWZNCSHoRV-wfdT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-6" y="235" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-2" target="sESf9vWZNCSHoRV-wfdT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-2" value="21" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="155" y="116" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-4" value="80/443" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="157" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-6" value="3306" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="155" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-10" target="sESf9vWZNCSHoRV-wfdT-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-10" value="存在匿名登陆但是没有什么数据" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="355" y="116" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-12" target="sESf9vWZNCSHoRV-wfdT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-12" value="进行目录扫描发现 logs 文件, 在其中获取到登陆账号" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="515" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-14" target="sESf9vWZNCSHoRV-wfdT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-14" value="登陆之后发现其存在 sqli 利用此来读取数据库获取到管理员账号" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="715" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-16" target="sESf9vWZNCSHoRV-wfdT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-16" value="登陆管理员账号, 并发现一个命令注入漏洞" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="915" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-18" target="sESf9vWZNCSHoRV-wfdT-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-18" value="获取到用户的 Shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="915" y="12" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-20" target="sESf9vWZNCSHoRV-wfdT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-20" value="Shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="157" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sESf9vWZNCSHoRV-wfdT-21" target="sESf9vWZNCSHoRV-wfdT-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-21" value="daemon" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="373" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-24" value="root" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="536" y="-132" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sESf9vWZNCSHoRV-wfdT-26" value="发现一个 root 身份运行的定时脚本, 并且具有可写权限利用其获取 shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="896.5" y="-132" width="157" height="53" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
