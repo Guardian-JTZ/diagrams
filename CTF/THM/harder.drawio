@@ -1,9 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T01:49:58.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.8.2" etag="wQufbkEkpxWvi73wjYvH" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-01T02:01:24.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XMRkv8Hbbh_pSc3uP-AI" version="21.8.2" type="github">
   <diagram name="第 1 页" id="sXRHEPuGrJEAm_WTq8D9">
-    <mxGraphModel>
+    <mxGraphModel dx="2333" dy="1291" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-43" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="728" y="516" width="1197" height="393" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-1" target="Zjcn2LOmt9k-8Wvf9Min-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-1" target="Zjcn2LOmt9k-8Wvf9Min-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-1" target="Zjcn2LOmt9k-8Wvf9Min-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="224" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-2" value="2" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="208" y="101" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-4" value="22" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="224" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-5" target="Zjcn2LOmt9k-8Wvf9Min-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-5" value="80" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="366" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-8" target="Zjcn2LOmt9k-8Wvf9Min-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-8" target="Zjcn2LOmt9k-8Wvf9Min-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-8" value="进行扫描发现一个域" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="366" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-10" target="Zjcn2LOmt9k-8Wvf9Min-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-10" value="pwd.harder.local" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="594" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-12" value="shell.harder.local" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="594" y="436" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-14" target="Zjcn2LOmt9k-8Wvf9Min-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-14" value="存在 git 源码泄露, 获取到源码后, 利用&amp;nbsp;hash_hmac() 漏洞获取到一个凭证" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="794" y="315" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-16" target="Zjcn2LOmt9k-8Wvf9Min-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-16" value="利用得到的凭证进行登陆,发现命令执行漏洞" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="439" width="162" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-21" target="Zjcn2LOmt9k-8Wvf9Min-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-21" value="利用命令执行漏洞我们可以找到 evs 用户的 SSH 密码, 可以借此完成登陆" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="790.5" y="563" width="191" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-26" value="root" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="675" width="123" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-27" target="Zjcn2LOmt9k-8Wvf9Min-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-41" value="没有寻找到公钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zjcn2LOmt9k-8Wvf9Min-38">
+          <mxGeometry x="0.0403" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-27" target="Zjcn2LOmt9k-8Wvf9Min-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-42" value="寻找到公钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zjcn2LOmt9k-8Wvf9Min-39">
+          <mxGeometry x="0.0251" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-27" value="发现一个特殊的 SUID 程序" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1256" y="671" width="162.5" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zjcn2LOmt9k-8Wvf9Min-26" target="Zjcn2LOmt9k-8Wvf9Min-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-29" value="其中会执行一个脚本, 该脚本会执行 whoami 命令存在 Linux PATH 利用" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1688" y="757" width="168" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Zjcn2LOmt9k-8Wvf9Min-32" value="利用公钥加密一个命令并进行执行" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1688" y="607" width="159" height="56" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
