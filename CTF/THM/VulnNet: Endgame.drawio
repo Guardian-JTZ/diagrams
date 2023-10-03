@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T05:31:14.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.0" etag="I5pyXkl5_-8DiOQab9VK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T05:43:40.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Ly9q89yhhuQTwk_kgWJ4" version="22.0.0" type="github">
   <diagram name="第 1 页" id="ScpdzQ-OMZO4zk4V88Vf">
-    <mxGraphModel>
+    <mxGraphModel dx="3025" dy="1453" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-1" target="XR9UmM7DX7A_hJ4FwQ-o-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-1" target="XR9UmM7DX7A_hJ4FwQ-o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-2" value="22" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="139" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-4" target="XR9UmM7DX7A_hJ4FwQ-o-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-4" value="80" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="139" y="299" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-6" target="XR9UmM7DX7A_hJ4FwQ-o-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-6" target="XR9UmM7DX7A_hJ4FwQ-o-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-6" target="XR9UmM7DX7A_hJ4FwQ-o-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-6" target="XR9UmM7DX7A_hJ4FwQ-o-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-6" value="进行子域扫描发现四个子域" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="339" y="299" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-8" target="XR9UmM7DX7A_hJ4FwQ-o-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-8" value="blog.vulnnet.thm" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="562" y="176" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-10" value="shop.vulnnet.thm" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="562" y="251" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-11" value="api.vulnnet.thm" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="562" y="359" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-12" value="admin1.vulnnet.thm" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="562" y="458" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-16" target="XR9UmM7DX7A_hJ4FwQ-o-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-16" value="发现在此域中会调用 api 域执行一个查询请求" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="762" y="176" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-18" target="XR9UmM7DX7A_hJ4FwQ-o-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-18" value="对此请求发现了 sqli 漏洞, 读取了数据库存储的账户和密码" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="748.5" y="359" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-20" target="XR9UmM7DX7A_hJ4FwQ-o-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-20" value="发现一个 typo3 的 CMS , 利用之前得到的账号进行登陆" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="962" y="458" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-23" target="XR9UmM7DX7A_hJ4FwQ-o-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-23" value="上传反向 Shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1162" y="458" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-25" target="XR9UmM7DX7A_hJ4FwQ-o-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-25" value="获取到用户 www-data 的 Shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1135.5" y="12.5" width="173" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="XR9UmM7DX7A_hJ4FwQ-o-27" target="XR9UmM7DX7A_hJ4FwQ-o-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-27" value="在用户&amp;nbsp;system 家目录发现 firefox 的配置文件从中获取到用户 system 的密码" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="12.5" width="200" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XR9UmM7DX7A_hJ4FwQ-o-29" value="发现特殊的&amp;nbsp; capabiilities 程序" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="10.75" width="167" height="61.25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
