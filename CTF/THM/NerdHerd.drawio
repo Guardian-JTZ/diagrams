@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T05:44:05.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.0" etag="-eY9UD4JHh0KgE3pe3xK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T05:50:31.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="HsN8ljGUGwac8zIgkBL9" version="22.0.0" type="github">
   <diagram name="第 1 页" id="9kjhVUVBI522da3zVaKt">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nUMqqoQeQPckmMxJneVE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-1" target="nUMqqoQeQPckmMxJneVE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-1" target="nUMqqoQeQPckmMxJneVE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-1" target="nUMqqoQeQPckmMxJneVE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-1" target="nUMqqoQeQPckmMxJneVE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-1" target="nUMqqoQeQPckmMxJneVE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="43" y="211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-2" target="nUMqqoQeQPckmMxJneVE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-2" value="21" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="11" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-4" value="22" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="83" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-5" target="nUMqqoQeQPckmMxJneVE-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-5" value="139/445" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="377" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-6" value="1337" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-12" target="nUMqqoQeQPckmMxJneVE-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-12" value="发现存在匿名登陆, 登陆之后获取到一张照片, 存在文件隐写术, 同时使用Vigenère 加密" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="416" y="13" width="181" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-15" target="nUMqqoQeQPckmMxJneVE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-15" value="80" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="213" y="211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-16" target="nUMqqoQeQPckmMxJneVE-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-16" value="访问在其中发现一段视频,. 看了 wp 知道了上面的 Vigenère&amp;nbsp; 加密密码" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="431.5" y="211" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-18" target="nUMqqoQeQPckmMxJneVE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-18" value="解密得到原文" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="676.5" y="211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-21" target="nUMqqoQeQPckmMxJneVE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-21" value="使用 enum 工具进行枚举扫描到一个新的用户" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="377" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-23" target="nUMqqoQeQPckmMxJneVE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-23" value="使用得到的密码以及用户进行连接" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="665" y="377" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-26" target="nUMqqoQeQPckmMxJneVE-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-26" value="获取到一个新的目录, 同时访问发现用户的密码" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="865" y="377" width="142" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="nUMqqoQeQPckmMxJneVE-28" target="nUMqqoQeQPckmMxJneVE-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-28" value="使用得到的用户访问" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="876" y="76" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUMqqoQeQPckmMxJneVE-30" value="发现一个可以利用的 CVE 漏洞" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1076" y="76" width="170" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
