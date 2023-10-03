@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T02:25:01.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.0" etag="YdCvlMaaVzeXoemqyzy_" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T05:30:33.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="0wtofpBvWlsrG9dqyald" version="22.0.0" type="github">
   <diagram name="第 1 页" id="t2djn8xZkvSRZd2FPEal">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="iBqYAkyWD2hAP0Pb74b3-1" target="iBqYAkyWD2hAP0Pb74b3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="iBqYAkyWD2hAP0Pb74b3-1" target="iBqYAkyWD2hAP0Pb74b3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="67" y="209" width="81" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-2" value="22" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="221" y="132" width="106" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="iBqYAkyWD2hAP0Pb74b3-5" target="iBqYAkyWD2hAP0Pb74b3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-5" value="80" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="221" y="285" width="106" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="iBqYAkyWD2hAP0Pb74b3-7" target="iBqYAkyWD2hAP0Pb74b3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-7" value="发现在登陆站点存在 SQLi, 直接绕过登陆" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="277.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="iBqYAkyWD2hAP0Pb74b3-9" target="iBqYAkyWD2hAP0Pb74b3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-9" value="上传反向 Shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="277.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="iBqYAkyWD2hAP0Pb74b3-11" target="iBqYAkyWD2hAP0Pb74b3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-11" value="获取到用户 www-data 的 Shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="570" y="125" width="180" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="iBqYAkyWD2hAP0Pb74b3-13" target="iBqYAkyWD2hAP0Pb74b3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-13" value="发现密码重用问题, 切换到&amp;nbsp;cyrus 用户" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="119.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iBqYAkyWD2hAP0Pb74b3-15" value="发现 SUDO 特权, 可以执行杀毒程序, 通过新建规则使得正常文件变为异常文件" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="119.25" width="154" height="58.75" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
