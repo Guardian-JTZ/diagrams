@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T05:50:52.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.0" etag="QlpSSV9Qa1cYW5MBjjZM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T05:56:31.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="fjUddaQAGzNfAs0otGR7" version="22.0.0" type="github">
   <diagram name="第 1 页" id="jc6_Qb5Al9kYch64FGl-">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rqK8mS5ud1b7F4CWCeVP-1" target="rqK8mS5ud1b7F4CWCeVP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rqK8mS5ud1b7F4CWCeVP-1" target="rqK8mS5ud1b7F4CWCeVP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rqK8mS5ud1b7F4CWCeVP-1" target="rqK8mS5ud1b7F4CWCeVP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="95" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-2" value="22" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="319" y="111" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rqK8mS5ud1b7F4CWCeVP-4" target="rqK8mS5ud1b7F4CWCeVP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-4" value="139/445" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="319" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-5" value="8888" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="319" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rqK8mS5ud1b7F4CWCeVP-9" target="rqK8mS5ud1b7F4CWCeVP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-9" value="进行枚举发现在其中获取到一个 token" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="519" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rqK8mS5ud1b7F4CWCeVP-12" target="rqK8mS5ud1b7F4CWCeVP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-12" value="利用获取到的 token 登录" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="671" y="353" width="138" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rqK8mS5ud1b7F4CWCeVP-14" target="rqK8mS5ud1b7F4CWCeVP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-14" value="发现命令注入漏洞" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="898" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rqK8mS5ud1b7F4CWCeVP-16" target="rqK8mS5ud1b7F4CWCeVP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-16" value="得到用户&amp;nbsp;dev-datasci 的 Shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="898" y="111" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rqK8mS5ud1b7F4CWCeVP-18" target="rqK8mS5ud1b7F4CWCeVP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-18" value="发现一个 SUDO 特权通过替换完成提权" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1098" y="111" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqK8mS5ud1b7F4CWCeVP-20" value="发现在WSL 环境下, 直接挂载 windows C&amp;nbsp; 盘完成获取 Flag" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1298" y="111" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
