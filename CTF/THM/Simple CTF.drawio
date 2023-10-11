@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T07:29:06.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="NWt1CTnHGUtMjVPrtSoK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T07:35:36.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="vv5u5p1tfhWr2yb6670r" version="22.0.4" type="github">
   <diagram name="第 1 页" id="9x2P1ngsi9C5JiZLp22u">
-    <mxGraphModel>
+    <mxGraphModel dx="1909" dy="1058" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sg4qgPVwI5Y6erBt_SIx-1" target="Sg4qgPVwI5Y6erBt_SIx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sg4qgPVwI5Y6erBt_SIx-1" target="Sg4qgPVwI5Y6erBt_SIx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sg4qgPVwI5Y6erBt_SIx-1" target="Sg4qgPVwI5Y6erBt_SIx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-1" value="端口扫描" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4" y="216" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sg4qgPVwI5Y6erBt_SIx-2" target="Sg4qgPVwI5Y6erBt_SIx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-2" value="21 : FTP" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="221" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-4" value="80 : HTTP" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="221" y="216" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-6" value="2222 : SSH" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="221" y="344" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sg4qgPVwI5Y6erBt_SIx-8" target="Sg4qgPVwI5Y6erBt_SIx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-8" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;存在匿名身份认证, 告诉我们系统中存在以下弱点&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;弱密码&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;密码重用 :&amp;nbsp;&lt;/span&gt;系统和网站存在相同用户， 且密码相同&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="420" y="83" width="326" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sg4qgPVwI5Y6erBt_SIx-10" target="Sg4qgPVwI5Y6erBt_SIx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-10" value="访问发现一个 CMS , 并发现其存在 sqli,寻找 exp 直接运行&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="238" width="346" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sg4qgPVwI5Y6erBt_SIx-12" target="Sg4qgPVwI5Y6erBt_SIx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-12" value="登陆网站之后发现一个任意文件上传漏洞" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="825" y="229.5" width="242" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sg4qgPVwI5Y6erBt_SIx-14" target="Sg4qgPVwI5Y6erBt_SIx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-14" value="获取到 www-data 用户的 Shell" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="841.5" y="354.5" width="209" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="Sg4qgPVwI5Y6erBt_SIx-16" value="利用密码重用切换用户并发现一个 SUDO 特权" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1161" y="345.5" width="266" height="57" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
