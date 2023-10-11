@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T07:18:35.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="AF__HRXEnqtJbJDKTRKq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T07:22:01.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="xXucgISqHEzzrVYqbpL4" version="22.0.4" type="github">
   <diagram name="第 1 页" id="jb1iR6AMYLd8cT_AI2Zz">
-    <mxGraphModel>
+    <mxGraphModel dx="1450" dy="582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PiPdCyih-CMRkivFqta5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PiPdCyih-CMRkivFqta5-1" target="PiPdCyih-CMRkivFqta5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PiPdCyih-CMRkivFqta5-1" target="PiPdCyih-CMRkivFqta5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-1" value="端口扫描" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-2" value="22" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="181" y="83" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PiPdCyih-CMRkivFqta5-4" target="PiPdCyih-CMRkivFqta5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-4" value="80" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="181" y="332" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PiPdCyih-CMRkivFqta5-6" target="PiPdCyih-CMRkivFqta5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-6" value="发现一些信息泄露" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="381" y="332" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PiPdCyih-CMRkivFqta5-8" target="PiPdCyih-CMRkivFqta5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-8" value="使用信息泄露的内容作为登陆发现其功能为命令注入" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="581" y="332" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PiPdCyih-CMRkivFqta5-10" target="PiPdCyih-CMRkivFqta5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-10" value="获取到 www-data 用户的 Shell" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="552" y="83" width="178" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PiPdCyih-CMRkivFqta5-12" value="存在 SUDO 特权" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="839" y="83" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
