@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T11:13:20.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.4" etag="EyN1OauroC_xWwrar0KR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T11:25:48.136Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="91g7Uu3TH5U_C5Li3Ck1" version="22.0.4" type="github">
   <diagram name="第 1 页" id="Y9hY-dIPNIZIwYtiefPH">
-    <mxGraphModel>
+    <mxGraphModel dx="1450" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovpxaUWoIGjN0cwBsJ8I-1" target="ovpxaUWoIGjN0cwBsJ8I-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovpxaUWoIGjN0cwBsJ8I-1" target="ovpxaUWoIGjN0cwBsJ8I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovpxaUWoIGjN0cwBsJ8I-1" target="ovpxaUWoIGjN0cwBsJ8I-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovpxaUWoIGjN0cwBsJ8I-2" target="ovpxaUWoIGjN0cwBsJ8I-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-2" value="21 / FTP" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-4" value="22 / SSH" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="191" y="71" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-5" value="80 / HTTP" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="191" y="348" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovpxaUWoIGjN0cwBsJ8I-11" target="ovpxaUWoIGjN0cwBsJ8I-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-11" value="访问匿名共享, 我们得到一点提示告诉我们存在命令注入并且做了过滤" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="396" y="206" width="159" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovpxaUWoIGjN0cwBsJ8I-13" target="ovpxaUWoIGjN0cwBsJ8I-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-13" value="进行目录扫描, 发现一个命令注入页面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="572" y="348" width="219.5" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovpxaUWoIGjN0cwBsJ8I-15" target="ovpxaUWoIGjN0cwBsJ8I-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-15" value="获取到 www-data 用户的 Shell" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="797" y="77.5" width="180" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovpxaUWoIGjN0cwBsJ8I-17" target="ovpxaUWoIGjN0cwBsJ8I-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-17" value="在网站的目录下我们可以获取到一个特殊的文件其中附带的文件也存在文件隐写, 我们可以在此获取到用户 Anurodh 的密码" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1067" y="76.25" width="358" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ovpxaUWoIGjN0cwBsJ8I-19" value="用户 anurodh 是 docker 组用户我们可以借此完成提权" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1506" y="74.75" width="158" height="51" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
