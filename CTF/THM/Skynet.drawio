@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T07:59:12.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.4" etag="gRDxvtGgkjeeuZtIlwOe" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T08:15:44.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ZConbw9DUuOWSSDa2tAk" version="22.0.4" type="github">
   <diagram name="第 1 页" id="4bfn4x1k6S2WjBWattHr">
-    <mxGraphModel>
+    <mxGraphModel dx="2100" dy="1162" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-1" target="ym736eS_fKO6_3j1Zw5J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-1" target="ym736eS_fKO6_3j1Zw5J-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-1" target="ym736eS_fKO6_3j1Zw5J-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-2" value="22" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="87" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-4" target="ym736eS_fKO6_3j1Zw5J-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-4" value="139/445 SMB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-5" value="80" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-5" target="ym736eS_fKO6_3j1Zw5J-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-9" value="&lt;ol&gt;&lt;li&gt;发现一个&amp;nbsp;anonymous 共享, 从中获取到一个密码文件&lt;/li&gt;&lt;li&gt;发现一个&amp;nbsp;milesdyson 共享, 这应该是一个用户&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="325" width="346" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-11" target="ym736eS_fKO6_3j1Zw5J-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-11" value="扫描发现一个登陆页面使用之前得到的用户名以及密码进行暴力破解" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="884" y="209" width="187" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-9" target="ym736eS_fKO6_3j1Zw5J-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-14" target="ym736eS_fKO6_3j1Zw5J-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-14" value="登陆之后, 获取到一个密码" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1184.5" y="210" width="148.5" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-16" target="ym736eS_fKO6_3j1Zw5J-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-16" value="再次访问 SMB 服务, 从中发现一个新的目录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1346" y="325.25" width="140.25" height="59.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-18" target="ym736eS_fKO6_3j1Zw5J-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-18" value="访问新发现的目录是一个 CMS , 其存在 R/LFI 漏洞" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1541" y="212" width="287.99" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ym736eS_fKO6_3j1Zw5J-20" target="ym736eS_fKO6_3j1Zw5J-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-20" value="利用 RFI 获取一个 初始 Shell" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1624.995" y="74.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ym736eS_fKO6_3j1Zw5J-22" value="发现存在一个通配符利用" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1824.995" y="74.5" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
