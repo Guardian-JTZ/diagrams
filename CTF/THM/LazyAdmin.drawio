@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T07:54:26.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.4" etag="pE92px0Q_eLrZ8WbHTQ-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T07:58:55.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="RSqHjB_zKPMWnTPmagtf" version="22.0.4" type="github">
   <diagram name="第 1 页" id="qbwoO2aEpwLUfxOq6aii">
-    <mxGraphModel>
+    <mxGraphModel dx="1450" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CJVC7gvAS6EFMTINCIcr-1" target="CJVC7gvAS6EFMTINCIcr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJVC7gvAS6EFMTINCIcr-1" target="CJVC7gvAS6EFMTINCIcr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="197" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-2" value="22" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="111" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJVC7gvAS6EFMTINCIcr-4" target="CJVC7gvAS6EFMTINCIcr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-4" value="80" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="286" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJVC7gvAS6EFMTINCIcr-6" target="CJVC7gvAS6EFMTINCIcr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-6" value="进行目录扫描发现一个 CMS 同时发现一个数据库的备份文件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="386" y="286" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJVC7gvAS6EFMTINCIcr-8" target="CJVC7gvAS6EFMTINCIcr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-8" value="利用数据库中获取的用户进行登陆后台并上传 WebShell" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="586" y="286" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJVC7gvAS6EFMTINCIcr-10" target="CJVC7gvAS6EFMTINCIcr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-10" value="获取到初始 Shell" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="586" y="111" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJVC7gvAS6EFMTINCIcr-12" value="发现一个定时脚本 通过修改其中内容完成提权" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="786" y="111" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
