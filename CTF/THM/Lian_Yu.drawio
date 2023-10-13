@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:53:10.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.4" etag="ZyieXweoXIzO2ykWOWzM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T11:10:42.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="RtjZItX0OpA4jh_w7QN2" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MoPEyk0XcvBVuI1HBkJS">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="981" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JaC2XfF1FVo6dBmmgzoi-1" target="JaC2XfF1FVo6dBmmgzoi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JaC2XfF1FVo6dBmmgzoi-1" target="JaC2XfF1FVo6dBmmgzoi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-2" value="21 / FTP" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="97" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaC2XfF1FVo6dBmmgzoi-4" target="JaC2XfF1FVo6dBmmgzoi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-4" value="80 / HTTP" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaC2XfF1FVo6dBmmgzoi-8" target="JaC2XfF1FVo6dBmmgzoi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-8" value="通过扫描目录我们可以发现如下内容:&amp;nbsp;&lt;br&gt;&lt;ol&gt;&lt;li&gt;一个用户名 :&amp;nbsp;&lt;/li&gt;&lt;li&gt;一个密码&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="421" y="336.5" width="208" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaC2XfF1FVo6dBmmgzoi-10" target="JaC2XfF1FVo6dBmmgzoi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-10" value="登陆之后, 我们可以再次获取到一个照片, 存在文件隐写我们可以获取到一个密码" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="433" y="97" width="184" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JaC2XfF1FVo6dBmmgzoi-12" target="JaC2XfF1FVo6dBmmgzoi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-12" value="登陆 slade 用户的账号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="-40" width="160" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="JaC2XfF1FVo6dBmmgzoi-14" value="用户 slade 存在 SUDO&amp;nbsp; 特权利用完成提权" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="-44.5" width="243" height="60.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
