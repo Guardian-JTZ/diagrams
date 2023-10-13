@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T08:25:18.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.4" etag="OjmGdIZWcSh2eJ7KwXyi" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T08:43:03.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="J3mr4tLRKiqz_PgkmBcE" version="22.0.4" type="github">
   <diagram name="第 1 页" id="CreVXN9JBgpyCF2IQ7um">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f4y1EYZnGF_g5wHKRNfO-1" target="f4y1EYZnGF_g5wHKRNfO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f4y1EYZnGF_g5wHKRNfO-1" target="f4y1EYZnGF_g5wHKRNfO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f4y1EYZnGF_g5wHKRNfO-1" target="f4y1EYZnGF_g5wHKRNfO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f4y1EYZnGF_g5wHKRNfO-1" target="f4y1EYZnGF_g5wHKRNfO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-2" value="22" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-4" value="53" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="139" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f4y1EYZnGF_g5wHKRNfO-6" target="f4y1EYZnGF_g5wHKRNfO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-6" value="8009" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="289" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f4y1EYZnGF_g5wHKRNfO-7" target="f4y1EYZnGF_g5wHKRNfO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-7" value="8080" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f4y1EYZnGF_g5wHKRNfO-11" target="f4y1EYZnGF_g5wHKRNfO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-11" value="发现对应的存在 CVE 漏洞, 进行文件读取获取到一个 SSH 账号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="354" width="250" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f4y1EYZnGF_g5wHKRNfO-14" target="f4y1EYZnGF_g5wHKRNfO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-14" value="获取到用户 skfyfuck 的 Shell" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="533.5" y="43" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f4y1EYZnGF_g5wHKRNfO-16" target="f4y1EYZnGF_g5wHKRNfO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-16" value="发现 skyfuck 的一个 gpg 密钥, 进行解密后得到一个用户merlin 账号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="813" y="40" width="227" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4y1EYZnGF_g5wHKRNfO-18" value="切换 merlin 用户后发现其带有一个 SUDO 特权" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="41.5" width="138.5" height="57" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
