@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T07:42:08.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.4" etag="CvNRrfb3XArD25V9M0QM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T07:54:11.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="lF9npp4ULDxRtsW-ql1Q" version="22.0.4" type="github">
   <diagram name="第 1 页" id="3czFzT0nAR_SEmdhdce0">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dcElKO_90euGwtnWCuVp-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dcElKO_90euGwtnWCuVp-1" target="dcElKO_90euGwtnWCuVp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dcElKO_90euGwtnWCuVp-1" target="dcElKO_90euGwtnWCuVp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="28" y="197" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-2" value="22" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="62" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dcElKO_90euGwtnWCuVp-4" target="dcElKO_90euGwtnWCuVp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-4" value="80" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="323" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dcElKO_90euGwtnWCuVp-6" target="dcElKO_90euGwtnWCuVp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-6" value="我们可以在网页端发现一个密码管理器的源码, 进行代码分析了解其基本原理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="321" width="152" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dcElKO_90euGwtnWCuVp-8" target="dcElKO_90euGwtnWCuVp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-8" value="进行目录扫描发现一个管理页面其是基于前端验证绕过之后得到一个 SSH 的密钥" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="323" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dcElKO_90euGwtnWCuVp-10" target="dcElKO_90euGwtnWCuVp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-10" value="登陆站点, 基于前面的代码分析的基础我们破解了其密码管理器的密文(但是是当前用户的密码)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="613" y="68" width="194" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="dcElKO_90euGwtnWCuVp-12" value="接着 root 用户从指定网站下载内容并进行执行, 通过修改 hosts 文件完成篡改" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="924" y="69" width="147" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
