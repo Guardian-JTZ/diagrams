@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T08:59:50.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.4" etag="tU1sp0Co64VY55alhJlo" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T09:28:59.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="P9R4T-bmptARWhdhmwQO" version="22.0.4" type="github">
   <diagram name="第 1 页" id="_klIWdXVbJEphSVdi4kn">
-    <mxGraphModel>
+    <mxGraphModel dx="1450" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2_yXds01bvRZaFTFlSWL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_yXds01bvRZaFTFlSWL-1" target="2_yXds01bvRZaFTFlSWL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_yXds01bvRZaFTFlSWL-1" target="2_yXds01bvRZaFTFlSWL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_yXds01bvRZaFTFlSWL-1" target="2_yXds01bvRZaFTFlSWL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-2" value="21 / FTP" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="133" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-4" value="22 / SSH" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_yXds01bvRZaFTFlSWL-5" target="2_yXds01bvRZaFTFlSWL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-5" value="80 / HTTP" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="346" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_yXds01bvRZaFTFlSWL-8" target="2_yXds01bvRZaFTFlSWL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-8" value="进行目录扫描以及一系列探测后发现存在一处文件隐写的操作, 从此获取到一个 FTP 的密码表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="346" width="223" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_yXds01bvRZaFTFlSWL-10" target="2_yXds01bvRZaFTFlSWL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-10" value="进行暴力破解, 从而获取到一个账号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="435.5" y="133" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_yXds01bvRZaFTFlSWL-12" target="2_yXds01bvRZaFTFlSWL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-12" value="登陆之后, 从其中获取到一个加密文件, 解密为 SSH 账号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="635.5" y="133" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_yXds01bvRZaFTFlSWL-14" target="2_yXds01bvRZaFTFlSWL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-14" value="登陆 eli 用户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="635.5" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_yXds01bvRZaFTFlSWL-16" target="2_yXds01bvRZaFTFlSWL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-16" value="在登陆信息中提示查看&amp;nbsp; s3cr3t 文件, 从中获取到 Gwendoline 密码" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="822" y="232" width="180.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="2_yXds01bvRZaFTFlSWL-18" value="登陆 Gwendoline 用户发现存在 SUDO 特权" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1112.75" y="229" width="245.25" height="59" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
