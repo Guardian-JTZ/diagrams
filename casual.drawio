@@ -1,9 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T09:48:44.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.5" etag="CoJUXv40_zCPzYGSoKQd" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T10:03:28.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Hd7KKpdU0taS9RFwWgEg" version="22.0.5" type="github">
   <diagram name="第 1 页" id="xrU1uc1pmz9jmjIijtGk">
-    <mxGraphModel>
+    <mxGraphModel dx="2150" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-267" y="31" width="1515" height="624" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-1" value="总数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="813.5" width="260" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-2" value="存在 CVE&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="306" y="105" width="299" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-1" target="OYagHnQ3gcfRx3jeFj3e-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-4" value="只存在 CNVD" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="794" y="105" width="299" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-1" target="OYagHnQ3gcfRx3jeFj3e-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-5" value="CVE&amp;nbsp; 和 CNVD 都不存在" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="1216" y="105" width="299" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-1" target="OYagHnQ3gcfRx3jeFj3e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-8" value="只存在一个 CVE" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry y="215" width="345" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-2" target="OYagHnQ3gcfRx3jeFj3e-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-10" value="直接搜索" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="40.5" y="343" width="265.5" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-8" target="OYagHnQ3gcfRx3jeFj3e-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-12" value="存在多个 CVE" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="432" y="215" width="345" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-2" target="OYagHnQ3gcfRx3jeFj3e-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-14" value="逐个查询" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="471.75" y="341.5" width="265.5" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-12" target="OYagHnQ3gcfRx3jeFj3e-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-16" value="逐个查询,&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="813.5" y="213.5" width="261.5" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-4" target="OYagHnQ3gcfRx3jeFj3e-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-20" value="是否存在记录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="306" y="463" width="206" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-10" target="OYagHnQ3gcfRx3jeFj3e-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-14" target="OYagHnQ3gcfRx3jeFj3e-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-23" value="进行保存" style="whiteSpace=wrap;html=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="153" y="564" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-20" target="OYagHnQ3gcfRx3jeFj3e-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-25" value="存在记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OYagHnQ3gcfRx3jeFj3e-24">
+          <mxGeometry x="0.2195" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-26" value="进行备注 : 对应 CVE 无法查询到漏洞" style="whiteSpace=wrap;html=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="501" y="565.5" width="217" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-20" target="OYagHnQ3gcfRx3jeFj3e-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-28" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OYagHnQ3gcfRx3jeFj3e-27">
+          <mxGeometry x="-0.2678" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-29" value="是否存在记录" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="869.88" y="341.5" width="148.75" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-16" target="OYagHnQ3gcfRx3jeFj3e-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-31" value="进行保存" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="768.005" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-29" target="OYagHnQ3gcfRx3jeFj3e-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-33" value="进行备注 : 对应 CNVD 无法查询到漏洞" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="966" y="491" width="269" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-29" target="OYagHnQ3gcfRx3jeFj3e-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-35" value="暂时没有想到处理思路" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="OYagHnQ3gcfRx3jeFj3e-37">
+          <mxGeometry x="1273.25" y="237" width="184.5" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="OYagHnQ3gcfRx3jeFj3e-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OYagHnQ3gcfRx3jeFj3e-37" source="OYagHnQ3gcfRx3jeFj3e-5" target="OYagHnQ3gcfRx3jeFj3e-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
