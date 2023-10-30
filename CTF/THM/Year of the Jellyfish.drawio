@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T01:39:07.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="PinYl6t5Zpm2UqS5Jmm9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T01:45:12.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1yRXB91AtSzVkmeonjSS" version="22.0.8" type="github">
   <diagram name="第 1 页" id="RfWhqRhip1fTGZmc8IBv">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JdevQ_y6nw4u5BjE5eMV-1" target="JdevQ_y6nw4u5BjE5eMV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JdevQ_y6nw4u5BjE5eMV-1" target="JdevQ_y6nw4u5BjE5eMV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JdevQ_y6nw4u5BjE5eMV-1" target="JdevQ_y6nw4u5BjE5eMV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="216" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JdevQ_y6nw4u5BjE5eMV-6" target="JdevQ_y6nw4u5BjE5eMV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-6" value="443" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="202" y="311" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JdevQ_y6nw4u5BjE5eMV-7" target="JdevQ_y6nw4u5BjE5eMV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-7" value="80" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="202" y="216" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-8" value="22" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="202" y="144" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JdevQ_y6nw4u5BjE5eMV-20" target="JdevQ_y6nw4u5BjE5eMV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-20" value="从其扫描的结果中得到几个子域, 发现其中一个子域的 CMS 存在对应的 RCE 漏洞" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="266" width="238" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JdevQ_y6nw4u5BjE5eMV-23" target="JdevQ_y6nw4u5BjE5eMV-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-23" value="获取到 www-data 用户的 Shell" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="716" y="145" width="174" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JdevQ_y6nw4u5BjE5eMV-25" target="JdevQ_y6nw4u5BjE5eMV-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-25" value="执行发现一个特殊的 SUID 程序其对应的存在权限提升漏洞" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="947" y="147.5" width="179" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="JdevQ_y6nw4u5BjE5eMV-27" value="利用此获取到 Shell" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1168" y="144" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
