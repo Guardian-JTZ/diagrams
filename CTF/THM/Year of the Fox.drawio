@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T01:45:43.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="Be18gD-5tiNkUMvG0NMt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T01:51:41.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="zIZvwWLCc74n2zksYPmy" version="22.0.8" type="github">
   <diagram name="第 1 页" id="Fh7b7aYW7nfi0T3wk119">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="981" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N51iDIvqPA9Yto6aQsJW-1" target="N51iDIvqPA9Yto6aQsJW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N51iDIvqPA9Yto6aQsJW-1" target="N51iDIvqPA9Yto6aQsJW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="122" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-2" value="80" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="427" y="79" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N51iDIvqPA9Yto6aQsJW-4" target="N51iDIvqPA9Yto6aQsJW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-4" value="139/445" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="182" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N51iDIvqPA9Yto6aQsJW-6" target="N51iDIvqPA9Yto6aQsJW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-6" value="枚举到两个用户名" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="627" y="182" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N51iDIvqPA9Yto6aQsJW-8" target="N51iDIvqPA9Yto6aQsJW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-8" value="进行暴力破解得到一个账号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="611.5" y="75" width="151" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N51iDIvqPA9Yto6aQsJW-10" target="N51iDIvqPA9Yto6aQsJW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-10" value="访问页面发现对应的是一个搜索框通过确认发现是一个命令注入漏洞" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="858" y="73.5" width="206" height="59.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="N51iDIvqPA9Yto6aQsJW-12" target="N51iDIvqPA9Yto6aQsJW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-12" value="获取到 www-data 用户的 Shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="875" y="-33" width="172" height="60.25" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="N51iDIvqPA9Yto6aQsJW-14" target="N51iDIvqPA9Yto6aQsJW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-14" value="查看发现 SSH 端口只允许本地访问, 进行端口转发之后暴力破解对应的账户等到 fox 的账号" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="991" y="-125" width="251" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N51iDIvqPA9Yto6aQsJW-16" value="用户存在 SUDO 特权, 可以利用此来进行权限提升" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1138" y="-229" width="268" height="55" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
