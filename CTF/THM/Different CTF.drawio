@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T01:52:03.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="gS29CvUtKb3ola2kyIks" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T01:58:21.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oF9XBf9us1eW1veBg-xh" version="22.0.8" type="github">
   <diagram name="第 1 页" id="1e615SLpdYeTQ42WorGt">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="981" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="4Uz47uTLTjLNE5tzMP7E-1" target="4Uz47uTLTjLNE5tzMP7E-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="4Uz47uTLTjLNE5tzMP7E-1" target="4Uz47uTLTjLNE5tzMP7E-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-1" value="端口扫描" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="9" y="313" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-2" value="21" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="196" y="258" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="4Uz47uTLTjLNE5tzMP7E-4" target="4Uz47uTLTjLNE5tzMP7E-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-4" value="80" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="196" y="366" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="4Uz47uTLTjLNE5tzMP7E-6" target="4Uz47uTLTjLNE5tzMP7E-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-6" value="经过目录扫描发现一个密码表以及一张照片经过确认存在文件隐写术, 从中获取到 FTP 账号" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="367" width="287" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="4Uz47uTLTjLNE5tzMP7E-8" target="4Uz47uTLTjLNE5tzMP7E-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-8" value="登陆 FTP 服务, 发现对应的是一个 wordpress 目录, 从中获取到数据库账号" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="389.25" y="228" width="268.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="4Uz47uTLTjLNE5tzMP7E-10" target="4Uz47uTLTjLNE5tzMP7E-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-10" value="使用得到的账号登陆 phpmyadmin , 修改管理员密码, 并且从中发现一个新的子域" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="714" y="367" width="278" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="4Uz47uTLTjLNE5tzMP7E-12" target="4Uz47uTLTjLNE5tzMP7E-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-12" value="配合 FTP 上传 webShell&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1151" y="366.5" width="230" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="4Uz47uTLTjLNE5tzMP7E-14" target="4Uz47uTLTjLNE5tzMP7E-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-14" value="得到用户 www-data 的 Shell" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1184.5" y="173" width="163" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="4Uz47uTLTjLNE5tzMP7E-16" target="4Uz47uTLTjLNE5tzMP7E-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-16" value="使用之前得到的密码以及密码规则生成一张密码表, 暴力破解得到 hakanbey 账号&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1276" y="65" width="242" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Uz47uTLTjLNE5tzMP7E-18" value="发现存在一个定时 python 任务, 通过修改 os.py 完成提权" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="-38" width="193" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
