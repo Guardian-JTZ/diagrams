@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T09:36:18.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="oOfHzCptYQ2YJC3rctBe" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T09:38:32.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="9WYD-lBmGiaaSp5bit1t" version="22.0.8" type="github">
   <diagram name="第 1 页" id="iSoo_RD7gK0g9HUfKTyH">
-    <mxGraphModel>
+    <mxGraphModel dx="1450" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="f2OctnQds26ejePUBXR8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2OctnQds26ejePUBXR8-1" target="f2OctnQds26ejePUBXR8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-1" value="创建词法分析器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-132" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2OctnQds26ejePUBXR8-2" target="f2OctnQds26ejePUBXR8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-2" value="创建字节码生成器" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="68" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2OctnQds26ejePUBXR8-4" target="f2OctnQds26ejePUBXR8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-4" value="创建表达式解析器" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="268" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2OctnQds26ejePUBXR8-6" target="f2OctnQds26ejePUBXR8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="f2OctnQds26ejePUBXR8-6" target="f2OctnQds26ejePUBXR8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-6" value="解析表达式" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="468" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-8" value="放回表达式对象" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="668" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="f2OctnQds26ejePUBXR8-10" target="f2OctnQds26ejePUBXR8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2OctnQds26ejePUBXR8-10" value="设置表达式文本" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="668" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
