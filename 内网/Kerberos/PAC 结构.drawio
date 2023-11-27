@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T14:46:30.052Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.4" etag="Th4f-1fit0JLAVDVL-LZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T14:53:13.711Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ySX3OrY3X1G0fCJW4Dz3" version="22.1.4" type="github">
   <diagram name="Page-1" id="KL5gRgCo-KcznJB16uGG">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="578" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FrC258_J7Az0-3TSMoZ0-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="233" y="218" width="217" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="FrC258_J7Az0-3TSMoZ0-5" value="票证" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="FrC258_J7Az0-3TSMoZ0-6">
+          <mxGeometry width="217" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="FrC258_J7Az0-3TSMoZ0-4" value="授权数据" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="FrC258_J7Az0-3TSMoZ0-6">
+          <mxGeometry x="30" y="39" width="187" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="FrC258_J7Az0-3TSMoZ0-3" value="PAC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;fontSize=19;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="FrC258_J7Az0-3TSMoZ0-6">
+          <mxGeometry x="79" y="70" width="134" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="FrC258_J7Az0-3TSMoZ0-1" value="签名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=16;" vertex="1" parent="FrC258_J7Az0-3TSMoZ0-6">
+          <mxGeometry x="124" y="100" width="89" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
