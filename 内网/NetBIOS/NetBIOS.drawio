@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T09:47:18.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0GwoWD46tz9f5d-BRTNE" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T09:48:24.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UVWSpaDsRAAUUqC3DwYo" version="22.1.11" type="github">
   <diagram name="第 1 页" id="gh5PI_p-MOkmfYP4QGG6">
     <mxGraphModel dx="1050" dy="569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
             <mxPoint x="121" y="337.3999938964844" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohtwi0VluYz8EV7dMfoW-12" value="UDP 137" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ohtwi0VluYz8EV7dMfoW-10">
+        <mxCell id="ohtwi0VluYz8EV7dMfoW-12" value="UDP/TCP 137" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ohtwi0VluYz8EV7dMfoW-10">
           <mxGeometry x="-0.5606" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -46,7 +46,7 @@
         <mxCell id="ohtwi0VluYz8EV7dMfoW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ohtwi0VluYz8EV7dMfoW-15" target="ohtwi0VluYz8EV7dMfoW-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ohtwi0VluYz8EV7dMfoW-18" value="UDP/TCP 139" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ohtwi0VluYz8EV7dMfoW-17">
+        <mxCell id="ohtwi0VluYz8EV7dMfoW-18" value="TCP 139" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ohtwi0VluYz8EV7dMfoW-17">
           <mxGeometry x="-0.5613" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
