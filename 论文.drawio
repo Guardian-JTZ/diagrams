@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T15:21:06.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Zf3zhcGPxKp-ermiJ7rE" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T15:37:54.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="mrjyrrGWOF4wm_YTFGLm" version="24.5.2" type="github">
   <diagram name="第 1 页" id="Pq7LRNEMIVmDGtsw7FPM">
     <mxGraphModel dx="1235" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -417,6 +417,35 @@
               <mxPoint x="509" y="2997" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HWHErDfSJxv5yxR6spuk-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HWHErDfSJxv5yxR6spuk-48" target="HWHErDfSJxv5yxR6spuk-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWHErDfSJxv5yxR6spuk-48" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="749.5" y="3247" width="113" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="HWHErDfSJxv5yxR6spuk-53" value="用户发送信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="746" y="3354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWHErDfSJxv5yxR6spuk-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HWHErDfSJxv5yxR6spuk-57" target="HWHErDfSJxv5yxR6spuk-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWHErDfSJxv5yxR6spuk-57" value="用户信息&lt;span style=&quot;background-color: initial;&quot;&gt;存储&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;到数据库中&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3465" width="152" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HWHErDfSJxv5yxR6spuk-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HWHErDfSJxv5yxR6spuk-53" target="HWHErDfSJxv5yxR6spuk-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWHErDfSJxv5yxR6spuk-59" value="将信息推送给&lt;div&gt;其他用户&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="746" y="3577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWHErDfSJxv5yxR6spuk-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HWHErDfSJxv5yxR6spuk-59" target="HWHErDfSJxv5yxR6spuk-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="804.7500000000002" y="3680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWHErDfSJxv5yxR6spuk-63" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="749.5" y="3677" width="113" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
