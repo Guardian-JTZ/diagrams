@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T01:01:55.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="AJ444QjDp98k3UR3RYab" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T03:49:08.679Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="sRsN3YJfMFU0H6vweN-k" version="24.5.3" type="github">
   <diagram name="第 1 页" id="Pq7LRNEMIVmDGtsw7FPM">
-    <mxGraphModel dx="1050" dy="569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -526,6 +526,39 @@
         </mxCell>
         <mxCell id="cro6VkyQA4ZLvbmiUd0_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cro6VkyQA4ZLvbmiUd0_-18" target="cro6VkyQA4ZLvbmiUd0_-20">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cro6VkyQA4ZLvbmiUd0_-30" target="cro6VkyQA4ZLvbmiUd0_-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-30" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="277" y="4644" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cro6VkyQA4ZLvbmiUd0_-31" target="cro6VkyQA4ZLvbmiUd0_-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-31" value="用户选择模块并配置选项" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="267" y="4755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cro6VkyQA4ZLvbmiUd0_-33" target="cro6VkyQA4ZLvbmiUd0_-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-33" value="提交任务到 Metasploit" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="267" y="4860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cro6VkyQA4ZLvbmiUd0_-43" target="cro6VkyQA4ZLvbmiUd0_-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-43" value="模块执行结果前端展示" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="267" y="4964" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-45" value="模块执行结果&lt;br&gt;录入数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="459" y="4965.5" width="122" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cro6VkyQA4ZLvbmiUd0_-43" target="cro6VkyQA4ZLvbmiUd0_-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cro6VkyQA4ZLvbmiUd0_-47" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="277" y="5068" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
